@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="DetailSpider" extends="Group" initialFocus = "detalleSpider" >
+
+    <script type="text/brightscript" uri="detail.brs" />
+    <children>
+
+   
+       <layoutGroup
+          id="detalleSpider"
+          visible="false"
+          layoutDirection="vert"> 
+                   
+            
+            <Overhang 
+            title = "canal de Vengadores" 
+            showOptions = "true" 
+            optionsAvailable = "true" 
+            color="0xFF0000"/>       
+                 
+
+            <Rectangle
+              id="informacionSpider"
+              height="1100" 
+              width="1900" 
+              translation = "[ 700, 460 ]"
+              color="0xFFFFFF" 
+                    >
+                        
+                <simpleLabel 
+                    id="infoSpider" 
+                    text="spider man " 
+                    height="400" 
+                    width="800" 
+                    horizAlign="center" 
+                    vertAlign="center" 
+                    color="0xFF0000" 
+                    translation="[100,50]" 
+                    font="font:LargeBoldSystemFont"/>
+
+                      <Poster 
+                        uri="pkg:/images/iconMarvel.webp" 
+                        width="160" 
+                        height="100" 
+                        translation="[0,0]"/>
+                
+                        <Video 
+                        id="videoPlayer"
+                        translation="[0,150]" 
+                        width="2000%" 
+                        height="700%" 
+                        focusable="true" 
+                        uri="pkg:/images/Spider.mp4"/>
+            </Rectangle>
+                
+        </layoutGroup>
+                  
+
+                
+
+    </children>
+</component>

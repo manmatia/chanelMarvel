@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="Detail" extends="Group" initialFocus="detalleScreen">
+
+    <script type="text/brightscript" uri="detail.brs" />
+    <children>
+
+        <layoutGroup
+            id="detalleScreen"
+            visible="false"
+            layoutDirection="vert">
+
+            <Overhang 
+                title="canal de Vengadores" 
+                showOptions="true" 
+                optionsAvailable="true" 
+                color="0xFF0000" 
+            />
+
+            <Rectangle
+                id="informacion"
+                height="1100"
+                width="1900"
+                color="0xFFFFFF">
+
+                <Label 
+                    id="info" 
+                    text="black panther" 
+                    height="100" 
+                    width="300" 
+                    horizAlign="center" 
+                    vertAlign="center" 
+                    color="0xFF0000" 
+                    translation="[100,210]" />
+
+                <!-- <Label 
+                   height="600" 
+                    width="300" 
+                    id="duracion" 
+                    text="Hace millones de años, un meteorito de poderoso vibranium impactó en África. Cuando llegó la era del hombre, la mayoría de los habitantes de aquel territorio se unieron bajo el mando de un guerrero chamán que, gracias al vibranium, adquirió fuerza, velocidad e instinto sobrehumano, convirtiéndose en el primer Black Panther." 
+                    color="0xFF0000" 
+                    translation="[200,230]"/> -->
+
+                <Poster
+                    width="600" 
+                    height="600" 
+                    translation="[1070,180]"
+                    uri="pkg:/images/bp.webp"
+                />
+
+            </Rectangle>
+
+        </layoutGroup>
+
+    </children>
+</component>
