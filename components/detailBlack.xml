@@ -12,7 +12,7 @@
         layoutDirection="vert"> 
 
             <Overhang 
-                title="canal de Vengadores" 
+                title="Black Widow" 
                 showOptions="true" 
                 optionsAvailable="true" 
                 color="0xFF0000" 
@@ -21,7 +21,7 @@
                <Rectangle
                id="informacionBlack"
                height="1100" 
-               width="1900" 
+               width="1920" 
                translation = "[ 700, 460 ]"
                color="0xFFFFFF" 
                >
@@ -29,8 +29,8 @@
                             <Label 
                                 id="infoBlack" 
                                 text="Black Widow" 
-                                height="200" 
-                                width="300" 
+                                height="500" 
+                                width="600" 
                                 horizAlign="center" 
                                 vertAlign="center" 
                                 color="0xFF0000" 

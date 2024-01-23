@@ -12,7 +12,7 @@
        layoutDirection="vert"> 
 
          <Overhang 
-                title="canal de Vengadores" 
+                title="Doctor Strange" 
                 showOptions="true" 
                 optionsAvailable="true" 
                 color="0xFF0000" 
@@ -22,7 +22,7 @@
                    <Rectangle
                     id="informacionDoctor"
                     height="1100" 
-                    width="1900" 
+                    width="1920" 
                     translation = "[ 700, 460 ]"
                     color="0xFFFFFF" 
                     >  

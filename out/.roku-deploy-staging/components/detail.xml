@@ -11,7 +11,7 @@
             layoutDirection="vert">
 
             <Overhang 
-                title="canal de Vengadores" 
+                title="Black Panter" 
                 showOptions="true" 
                 optionsAvailable="true" 
                 color="0xFF0000" 
@@ -20,14 +20,14 @@
             <Rectangle
                 id="informacion"
                 height="1100"
-                width="1900"
+                width="1920"
                 color="0xFFFFFF">
 
                 <Label 
                     id="info" 
                     text="black panther" 
-                    height="100" 
-                    width="300" 
+                    height="500" 
+                    width="600" 
                     horizAlign="center" 
                     vertAlign="center" 
                     color="0xFF0000" 
