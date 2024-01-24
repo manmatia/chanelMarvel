@@ -35,7 +35,6 @@
                         translation="[1070,180]"
                         uri="pkg:/images/bw.jpg"/>
                 </Rectangle>
-                    
         </layoutGroup>
     </children>
 </component>
