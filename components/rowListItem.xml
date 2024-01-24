@@ -1,4 +1,5 @@
 <?xml version = "1.0" encoding = "utf-8" ?> 
+
 <component name = "RowListItem" extends = "Group" >
  
   <interface > 
@@ -10,14 +11,12 @@
   <script type = "text/brightscript" uri="rowListItem.brs"/>
 
   <children >
-
     <Poster 
       id = "itemPoster" 
       translation = "[ 10, 10 ]" 
       width = "512" 
       height = "288" 
-      scaleRotateCenter = "[ 256.0, 144.0 ]" >
-
+      scaleRotateCenter = "[ 256.0, 144.0 ]">
       <Rectangle 
         id = "itemMask" 
         color = "0x000000FF" 
@@ -25,16 +24,12 @@
         width = "512" 
         height = "288" 
         scaleRotateCenter = "[ 256.0, 144.0 ]"/>
-
     </Poster>
-
     <Label 
       id = "itemLabel" 
       translation = "[ 20, 264 ]" 
       horizAlign = "right" 
       width = "492" 
       opacity = "0.0"/>
-
   </children>
-
 </component>

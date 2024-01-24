@@ -1,17 +1,17 @@
 sub Main()
-   ? "start Marvel Channel "
-    
+    ? "start Marvel Channel "
+
     screen = CreateObject("roSGScreen")
     m = CreateObject("roAssociativeArray")
     m.port = CreateObject("roMessagePort")
     screen.setMessagePort(m.port)
-    
+
     scene = screen.CreateScene("MainScreen")
     scene.backgroundColor = ""
     scene.backgroundUri = "pkg:/images/caphd.jpeg"
    
   
-    ' Mostrar la pantalla
+   
     screen.show() 
     
     while true

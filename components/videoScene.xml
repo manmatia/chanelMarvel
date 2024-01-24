@@ -6,8 +6,6 @@
         <field id="videoScene"  type="node" />
     </interface> 
     <script type="text/brightscript" uri="videoScene.brs" /> 
-
-<children >
-   
-</children>
+    <children >
+    </children>
 </component>
