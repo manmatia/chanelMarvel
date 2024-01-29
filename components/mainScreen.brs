@@ -1,7 +1,14 @@
 sub init()
+  rowListVarible()
+  createVarible()
+  m.top.setFocus(true)
+end sub
+
+sub rowListVarible()
   m.rowlist = m.top.findNode("marvelRowList")
   m.rowlist.content = CreateObject("roSGNode", "RowListContent")
-  m.top.setFocus(true)
+end sub 
+sub createVarible()
   m.spiderMan = m.top.findNode("spiderMan")
   m.firstScreen = m.top.findNode("firstScreen")
   m.detalleScreen = m.top.findNode("detalleScreen")
@@ -11,41 +18,35 @@ sub init()
   m.video = m.top.findNode("videoPlayer")
 end sub
 
+
 sub changeVisible()
   m.detalleScreen.visible = true
   m.firstScreen.visible = false
-  print "cambio de vista"
 end sub
 
 sub changeVisible0()
   m.detailSpider.visible = true
   m.firstScreen.visible = false
   setVideo()
-  print "cambio de vista"
 end sub
 sub changeVisible2()
   m.detailDoctor.visible = true
   m.firstScreen.visible = false
-  print "cambio de vista"
 end sub
 sub changeVisible3()
   m.detailBlack.visible = true
   m.firstScreen.visible = false
-  print "cambio de vista"
 end sub
 
 sub backHome()
-  
   m.detailSpider.visible = false
   m.detalleScreen.visible = false
   m.detailDoctor.visible = false
   m.detailBlack.visible = false
   m.video.control = "stop"
-  
   m.firstScreen.visible = true
-  m.rowlist = m.top.findNode("marvelRowList")
   m.rowlist.setFocus(true)
-  print "Vuelvo a home"
+ 
 end sub
 
 
