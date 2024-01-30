@@ -10,13 +10,11 @@
       showOptions = "true" 
       titleColor="0xFF0000"
       logoUri= "https://static.wikia.nocookie.net/avengers-assemble/images/7/71/Avengers_emblem.png/revision/latest?cb=20130518215451"/>
-    <Label id="textoMarvel" 
-      text="Vengadores" 
-      height="150" 
+    <Poster
       width="400" 
-      translation = "[ 700, 460 ]"
-      color="0xFF0000" 
-      font="font:MediumBoldSystemFont"/>
+      height="100" 
+      translation="[ 300, 330 ]"
+      uri="pkg:/images/avengers.png"/>
       <RowList 
         id = "marvelRowList" 
         itemComponentName = "RowListItem" 

@@ -23,7 +23,7 @@
         color="0xFFFFFF">
         <simpleLabel 
           id="infoSpider" 
-          text="spider man " 
+          text="Spider Man " 
           height="400" 
           width="1200" 
           horizAlign="center" 

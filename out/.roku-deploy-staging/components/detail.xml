@@ -21,7 +21,7 @@
                 color="0xFFFFFF">
                 <Label 
                     id="info" 
-                    text="black panther" 
+                    text="Black Panter" 
                     height="500" 
                     width="600" 
                     horizAlign="center" 
