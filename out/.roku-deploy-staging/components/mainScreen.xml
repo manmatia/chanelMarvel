@@ -17,14 +17,11 @@
       translation = "[ 700, 460 ]"
       color="0xFF0000" 
       font="font:MediumBoldSystemFont"/>
-    <layoutGroup   
-      id="firstScreen" 
-      layoutDirection="horiz"
-      visible="true"
-      translation = "[ 130, 560 ]" >
       <RowList 
         id = "marvelRowList" 
         itemComponentName = "RowListItem" 
+        visible="true"
+        translation = "[ 130, 560 ]"
         numRows = "1" 
         itemSize = "[ 1608, 308 ]" 
         rowItemSize = "[ [536, 308] ]" 
@@ -33,7 +30,6 @@
         drawFocusFeedback = "false" 
         vertFocusAnimationStyle = "fixedFocusWrap" 
         rowFocusAnimationStyle = "fixedFocusWrap" />
-      </layoutGroup>   
       <Detail/>
       <DetailDoctor/>
       <DetailSpider/> 

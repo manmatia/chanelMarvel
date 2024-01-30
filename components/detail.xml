@@ -27,14 +27,16 @@
                     horizAlign="center" 
                     vertAlign="center" 
                     color="0xFF0000" 
-                    translation="[100,210]" />
-            <!-- <Label 
-                    height="600" 
-                    width="300" 
+                    translation="[0,0]" />
+                <Label 
+                    height="700" 
+                    width="800" 
                     id="duracion" 
                     text="Hace millones de años, un meteorito de poderoso vibranium impactó en África. Cuando llegó la era del hombre, la mayoría de los habitantes de aquel territorio se unieron bajo el mando de un guerrero chamán que, gracias al vibranium, adquirió fuerza, velocidad e instinto sobrehumano, convirtiéndose en el primer Black Panther." 
                     color="0xFF0000" 
-                    translation="[200,230]"/> -->
+                    translation="[200,380]"
+                    wrap="true"
+                    displayPartialLines="true"/>
                 <Poster
                     width="600" 
                     height="600" 

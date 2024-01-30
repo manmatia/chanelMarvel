@@ -6,11 +6,11 @@ end sub
 
 sub rowListVarible()
   m.rowlist = m.top.findNode("marvelRowList")
+  m.marvelRowList = m.top.findNode("marvelRowList")
   m.rowlist.content = CreateObject("roSGNode", "RowListContent")
 end sub 
 sub createVarible()
   m.spiderMan = m.top.findNode("spiderMan")
-  m.firstScreen = m.top.findNode("firstScreen")
   m.detalleScreen = m.top.findNode("detalleScreen")
   m.detailSpider = m.top.findNode("detalleSpider")
   m.detailDoctor = m.top.findNode("detalleDoctor")
@@ -21,21 +21,21 @@ end sub
 
 sub changeVisible()
   m.detalleScreen.visible = true
-  m.firstScreen.visible = false
+  m.marvelRowList.visible = false
 end sub
 
 sub changeVisible0()
   m.detailSpider.visible = true
-  m.firstScreen.visible = false
+  m.marvelRowList.visible = false
   setVideo()
 end sub
 sub changeVisible2()
   m.detailDoctor.visible = true
-  m.firstScreen.visible = false
+  m.marvelRowList.visible = false
 end sub
 sub changeVisible3()
   m.detailBlack.visible = true
-  m.firstScreen.visible = false
+  m.marvelRowList.visible = false
 end sub
 
 sub backHome()
@@ -44,19 +44,16 @@ sub backHome()
   m.detailDoctor.visible = false
   m.detailBlack.visible = false
   m.video.control = "stop"
-  m.firstScreen.visible = true
+  m.marvelRowList.visible = true
   m.rowlist.setFocus(true)
- 
-end sub
+ end sub
 
 
 function onKeyEvent(key as String, press as Boolean) as Boolean
   print "Key: "; key; ", Press: "; press
 
   if key = "OK" then
-    m.rowlist = m.top.findNode("marvelRowList")
     focusedItem = m.rowlist.rowItemSelected
-    ? focusedItem
     if focusedItem[1] = 0 then
       changeVisible0()
       m.detailSpider.setFocus(true)
