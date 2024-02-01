@@ -6,7 +6,7 @@
   
   <children>
     <Overhang 
-      title = "canal de Vengadores" 
+      title = "💥💥💥💥"
       showOptions = "true" 
       titleColor="0xFF0000"
       logoUri= "https://static.wikia.nocookie.net/avengers-assemble/images/7/71/Avengers_emblem.png/revision/latest?cb=20130518215451"/>
@@ -19,7 +19,7 @@
         id = "marvelRowList" 
         itemComponentName = "RowListItem" 
         visible="true"
-        translation = "[ 130, 560 ]"
+        translation = "[ 130, 650 ]"
         numRows = "1" 
         itemSize = "[ 1608, 308 ]" 
         rowItemSize = "[ [536, 308] ]" 
