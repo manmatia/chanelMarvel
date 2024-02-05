@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<component name = "RowListContent" extends = "ContentNode" >
+
+  <children >
+    <ContentNode title = "" >
+      <ContentNode 
+        HDPosterUrl = "https://c4.wallpaperflare.com/wallpaper/997/794/382/miles-morales-spiderman-miles-morales-spider-man-peter-parker-spider-gwen-hd-wallpaper-preview.jpg" 
+        title = "SPIDER MAN"
+        id="spiderMan" />
+      <ContentNode 
+        HDPosterUrl = "https://i.pinimg.com/1200x/90/31/66/903166a0b6eebb532f9acb024850362b.jpg" 
+        title = "BLACK PANTER"
+        id="blackPanter"/>
+      <ContentNode 
+        HDPosterUrl = "https://i.pinimg.com/736x/5e/6a/01/5e6a01e41322b9454a88b9d135ec0b91.jpg" 
+        title = "DOCTOR STRANGE"
+        id="doctorStrange"/>
+      <ContentNode 
+        HDPosterUrl = "https://thecouch.world/wp-content/uploads/2018/01/Black-Widow-HD-Wallpaper-Moviesconv.jpg" 
+        title = "BLACK WIDOW"
+        id="blackWidow"/>
+    </ContentNode>
+  </children>
+</component>
