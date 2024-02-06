@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<component name="Detail" extends="Group" initialFocus="detalleScreen">
+<component name="Detail1" extends="Group" initialFocus="detalleScreen">
 
 <script type="text/brightscript" uri="detail.brs" />
 
