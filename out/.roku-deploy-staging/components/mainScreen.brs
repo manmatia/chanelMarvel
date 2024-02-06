@@ -9,7 +9,7 @@ sub rowListVarible()
   m.rowlist = m.top.findNode("marvelRowList")
   m.marvelRowList = m.top.findNode("marvelRowList")
   m.rowlist.content = CreateObject("roSGNode", "RowListContent")
-end sub 
+end sub
 sub createVarible()
   m.spiderMan = m.top.findNode("spiderMan")
   m.detalleScreen = m.top.findNode("detalleScreen")
@@ -20,27 +20,27 @@ sub createVarible()
 end sub
 
 sub observerChange()
-m.marvelRowList.observeField("itemSelected", "onItemSelectedChanged")
+  m.marvelRowList.observeField("itemSelected", "onItemSelectedChanged")
 end sub
 
 sub onItemSelectedChanged()
-  if m.marvelRowList.rowItemFocused[1]=0
+  if m.marvelRowList.rowItemFocused[1] = 0
     m.detailSpider.visible = true
     m.marvelRowList.visible = false
-     setVideo()
- end if  
- if m.marvelRowList.rowItemFocused[1]=1
- m.detalleScreen.visible = true
- m.marvelRowList.visible = false
-end if 
-if m.marvelRowList.rowItemFocused[1]=2
-   m.detailDoctor.visible = true
-   m.marvelRowList.visible = false
-  end if 
-if m.marvelRowList.rowItemFocused[1]=3
-   m.detailBlack.visible = true
-   m.marvelRowList.visible = false
-end if 
+    setVideo()
+  end if
+  if m.marvelRowList.rowItemFocused[1] = 1
+    m.detalleScreen.visible = true
+    m.marvelRowList.visible = false
+  end if
+  if m.marvelRowList.rowItemFocused[1] = 2
+    m.detailDoctor.visible = true
+    m.marvelRowList.visible = false
+  end if
+  if m.marvelRowList.rowItemFocused[1] = 3
+    m.detailBlack.visible = true
+    m.marvelRowList.visible = false
+  end if
 end sub
 
 sub backHome()
@@ -51,16 +51,16 @@ sub backHome()
   m.video.control = "stop"
   m.marvelRowList.visible = true
   m.rowlist.setFocus(true)
- end sub
+end sub
 
 
-function onKeyEvent(key as String, press as Boolean) as Boolean
+function onKeyEvent(key as string, press as boolean) as boolean
   print "Key: "; key; ", Press: "; press
 
   if key = "OK" then
     onItemSelectedChanged()
-  elseif press And key = "back" then
-  backHome()
+  else if press and key = "back" then
+    backHome()
     return true
   end if
 
@@ -73,9 +73,9 @@ function setVideo()
   videoContent = createObject("RoSGNode", "ContentNode")
   videoContent.title = "Marvel"
   videoContent.streamformat = "mp4"
-  videoContent.URL="pkg:/images/Spider.mp4"
+  videoContent.URL = "pkg:/images/Spider.mp4"
 
-  
+
   m.video.content = videoContent
   m.video.control = "play"
   m.video.focusable = true
