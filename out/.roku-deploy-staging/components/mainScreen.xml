@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <component name="MainScreen" extends="Scene" initialFocus = "marvelRowList" >
-<interface>
-    <field id="spider" type="string" alias=""/>
-</interface>
+
   <script type="text/brightscript" uri="mainScreen.brs" />
   
   <children>
