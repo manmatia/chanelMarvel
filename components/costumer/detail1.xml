@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<component name="Detail" extends="Group" initialFocus = "detalleDoctor" >
+<component name="Detail1" extends="Group" initialFocus = "detalleDoctor" >
 
 <interface>
     <field id="head" type="string" alias="over.title"/>
@@ -13,7 +13,7 @@
     <children>
 
         <layoutGroup
-            id="detalleDoctor"
+            id="detalle1"
             visible="false"
             layoutDirection="vert"> 
             <Overhang 
@@ -28,8 +28,7 @@
                 translation = "[ 700, 460 ]"
                 color="0xFFFFFF">  
                 <Label 
-                    id="info" 
-                
+                    id="titleLabel" 
                     height="500" 
                     width="600" 
                     horizAlign="center" 
@@ -37,9 +36,10 @@
                     color="0xFF0000" 
                     translation="[0,0]" />
                 <Label 
-                    id="textLabel"
+                    
                     height="700" 
                     width="800" 
+                    id="textLabel" 
                     color="0xFF0000" 
                     translation="[200,380]"
                     wrap="true"

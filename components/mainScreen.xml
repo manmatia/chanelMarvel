@@ -32,8 +32,12 @@
       <DetailDoctor/>
       <DetailSpider/> 
       <DetailBlack/>
-      <Detail1 id="spider"
-      name="Black2"/>
+      <Detail1 
+        id="spider"
+        head="Black Panter"
+        titleLabel="Black Panter"
+        textLabel="Hace millones de años, un meteorito de poderoso vibranium impactó en África. Cuando llegó la era del hombre, la mayoría de los habitantes de aquel territorio se unieron bajo el mando de un guerrero chamán que, gracias al vibranium, adquirió fuerza, velocidad e instinto sobrehumano, convirtiéndose en el primer Black Panther." 
+        posterUri="pkg:/images/bp.webp"/>
 
   </children>
 </component>

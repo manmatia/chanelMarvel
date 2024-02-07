@@ -12,7 +12,7 @@ sub rowListVarible()
 end sub
 sub createVarible()
   m.spiderMan = m.top.findNode("spiderMan")
-  m.detalleScreen = m.top.findNode("detalleScreen")
+  m.detalleScreen = m.top.findNode("detalle1")
   m.detailSpider = m.top.findNode("detalleSpider")
   m.detailDoctor = m.top.findNode("detalleDoctor")
   m.detailBlack = m.top.findNode("detalleBlack")
