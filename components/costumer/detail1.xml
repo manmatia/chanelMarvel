@@ -4,7 +4,7 @@
 
 <interface>
     <field id="head" type="string" alias="over.title"/>
-    <field id="titleLabel" type="string" alias="info.text"/>
+    <field id="titleLabel" type="string" alias="titleLabel.text"/>
     <field id="textLabel" type="string" alias="textLabel.text"/>
     <field id="posterUri" type="string" alias="posterUri.uri"/>
 </interface>
@@ -13,8 +13,7 @@
     <children>
 
         <layoutGroup
-            id="detalle1"
-            visible="false"
+           
             layoutDirection="vert"> 
             <Overhang 
                 id="over"

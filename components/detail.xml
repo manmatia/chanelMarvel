@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<component name="Detail" extends="Group" initialFocus="detalleScreen">
+<component name="Detail" extends="Group" initialFocus="blackPanter">
 
 <script type="text/brightscript" uri="detail.brs" />
 
     <children>
         <layoutGroup
-            id="detalleScreen"
+            id="blackPanter"
             visible="false"
             layoutDirection="vert">
             <Overhang 

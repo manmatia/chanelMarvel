@@ -12,7 +12,7 @@ sub rowListVarible()
 end sub
 sub createVarible()
   m.spiderMan = m.top.findNode("spiderMan")
-  m.detalleScreen = m.top.findNode("detalle1")
+  m.blackPanter = m.top.findNode("blackPanter")
   m.detailSpider = m.top.findNode("detalleSpider")
   m.detailDoctor = m.top.findNode("detalleDoctor")
   m.detailBlack = m.top.findNode("detalleBlack")
@@ -30,7 +30,7 @@ sub onItemSelectedChanged()
     setVideo()
   end if
   if m.marvelRowList.rowItemFocused[1] = 1
-    m.detalleScreen.visible = true
+    m.blackPanter.visible = true
     m.marvelRowList.visible = false
   end if
   if m.marvelRowList.rowItemFocused[1] = 2
@@ -45,7 +45,7 @@ end sub
 
 sub backHome()
   m.detailSpider.visible = false
-  m.detalleScreen.visible = false
+  m.blackPanter.visible = false
   m.detailDoctor.visible = false
   m.detailBlack.visible = false
   m.video.control = "stop"
