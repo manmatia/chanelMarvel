@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<component name="DetailBlack" extends="Group" initialFocus = "detalleBlack" >
+<component name="blackWidow" extends="Group" initialFocus = "detalleBlack" >
 
     <script type="text/brightscript" uri="detail.brs" />
 
