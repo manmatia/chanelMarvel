@@ -29,7 +29,7 @@
         vertFocusAnimationStyle = "fixedFocusWrap" 
         rowFocusAnimationStyle = "fixedFocusWrap" />
       <!-- <Detail/> -->
-      <DetailDoctor/>
+      <doctorStrange/>
       <DetailSpider/> 
       <blackWidow/>
       <Detail1 
@@ -46,6 +46,12 @@
         titleLabel="Black Widow"
         textLabel="Natalia Alianovna Romanova (inglés: Natasha Romanoff; ruso: Наталья Наташа Романоф Альяновна Романова) alias Black Widow (en ruso: Черная вдова) fue una antigua agente rusa de la KGB. Fue entrenada por la Habitación Roja como parte del Programa de Operaciones Black Widow para ser la Superespía definitiva." 
         posterUri="pkg:/images/bw.jpg"/>  
-
+      <Detail1 
+        id="doctorStange"
+        visible="false"
+        head="Doctor Strange"
+        titleLabel="Doctor Strange"
+        textLabel="Doctor Strange sirve como el Hechicero Supremo, el principal protector de la Tierra contra las amenazas mágicas y místicas. Inspirado en historias de magia negra y Chandu el Mago, Strange fue creado durante la edad de plata de los cómics para traer un tipo diferente de personajes y temas a Marvel." 
+        posterUri="pkg:/images/ds.jpeg"/>  
   </children>
 </component>

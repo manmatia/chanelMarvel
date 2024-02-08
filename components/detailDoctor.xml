@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<component name="DetailDoctor" extends="Group" initialFocus = "detalleDoctor" >
+<component name="doctorStrange" extends="Group" initialFocus = "detalleDoctor" >
 
     <script type="text/brightscript" uri="detail.brs" />
     <children>
