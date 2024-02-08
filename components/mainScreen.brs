@@ -14,7 +14,7 @@ sub createVarible()
   m.spiderMan = m.top.findNode("spiderMan")
   m.blackPanter = m.top.findNode("blackPanter")
   m.detailSpider = m.top.findNode("detalleSpider")
-  m.doctorStrange = m.top.findNode("doctorStrange")
+  m.doctorStrange = m.top.findNode("doctorStange")
   m.blackWidow = m.top.findNode("blackWidow")
   m.video = m.top.findNode("videoPlayer")
 end sub

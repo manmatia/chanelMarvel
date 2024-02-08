@@ -29,9 +29,9 @@
         vertFocusAnimationStyle = "fixedFocusWrap" 
         rowFocusAnimationStyle = "fixedFocusWrap" />
       <!-- <Detail/> -->
-      <doctorStrange/>
+      <!-- <doctorStrange/> -->
       <DetailSpider/> 
-      <blackWidow/>
+      <!-- <blackWidow/> -->
       <Detail1 
         id="blackPanter"
         visible="false"
