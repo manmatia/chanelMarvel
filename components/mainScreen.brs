@@ -11,7 +11,7 @@ sub rowListVarible()
   m.rowlist.content = CreateObject("roSGNode", "RowListContent")
 end sub
 sub createVarible()
-  m.spiderMan = m.top.findNode("spiderMan")
+ 
   m.blackPanter = m.top.findNode("blackPanter")
   m.detailSpider = m.top.findNode("detalleSpider")
   m.doctorStrange = m.top.findNode("doctorStange")
