@@ -39,6 +39,13 @@
         titleLabel="Black Panter"
         textLabel="Hace millones de años, un meteorito de poderoso vibranium impactó en África. Cuando llegó la era del hombre, la mayoría de los habitantes de aquel territorio se unieron bajo el mando de un guerrero chamán que, gracias al vibranium, adquirió fuerza, velocidad e instinto sobrehumano, convirtiéndose en el primer Black Panther." 
         posterUri="pkg:/images/bp.webp"/>
+      <Detail1 
+        id="blackWidow"
+        visible="false"
+        head="Black Widow"
+        titleLabel="Black Widow"
+        textLabel="Natalia Alianovna Romanova (inglés: Natasha Romanoff; ruso: Наталья Наташа Романоф Альяновна Романова) alias Black Widow (en ruso: Черная вдова) fue una antigua agente rusa de la KGB. Fue entrenada por la Habitación Roja como parte del Programa de Operaciones Black Widow para ser la Superespía definitiva." 
+        posterUri="pkg:/images/bw.jpg"/>  
 
   </children>
 </component>
