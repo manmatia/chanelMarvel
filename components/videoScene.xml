@@ -4,7 +4,7 @@
 
     <interface>
         <field id="videoScene"  type="node" />
-    </interface> 
+    </interface>
     <script type="text/brightscript" uri="videoScene.brs" /> 
     <children >
     </children>

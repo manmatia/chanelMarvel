@@ -13,40 +13,40 @@
     <children>
 
         <layoutGroup
-           
-            layoutDirection="vert"> 
-            <Overhang 
+
+            layoutDirection="vert">
+            <Overhang
                 id="over"
-                showOptions="true" 
-                optionsAvailable="true" 
+                showOptions="true"
+                optionsAvailable="true"
                 color="0xFF0000"/>
             <Rectangle
                 id="informacionDoctor"
-                height="1100" 
-                width="1920" 
+                height="1100"
+                width="1920"
                 translation = "[ 700, 460 ]"
-                color="0xFFFFFF">  
-                <Label 
-                    id="titleLabel" 
-                    height="500" 
-                    width="600" 
-                    horizAlign="center" 
-                    vertAlign="center" 
-                    color="0xFF0000" 
+                color="0xFFFFFF">
+                <Label
+                    id="titleLabel"
+                    height="500"
+                    width="600"
+                    horizAlign="center"
+                    vertAlign="center"
+                    color="0xFF0000"
                     translation="[0,0]" />
-                <Label 
-                    
-                    height="700" 
-                    width="800" 
-                    id="textLabel" 
-                    color="0xFF0000" 
+                <Label
+
+                    height="700"
+                    width="800"
+                    id="textLabel"
+                    color="0xFF0000"
                     translation="[200,380]"
                     wrap="true"
                     displayPartialLines="true"/>
                 <Poster
                     id="posterUri"
-                    width="600" 
-                    height="600" 
+                    width="600"
+                    height="600"
                     translation="[1070,180]"/>
             </Rectangle>
         </layoutGroup>

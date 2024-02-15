@@ -3,55 +3,52 @@
 <component name="MainScreen" extends="Scene" initialFocus = "marvelRowList" >
 
   <script type="text/brightscript" uri="mainScreen.brs" />
-  
+
   <children>
-    <Overhang 
+    <Overhang
       title = "💥💥💥💥"
-      showOptions = "true" 
+      showOptions = "true"
       titleColor="0xFF0000"
       logoUri= "https://static.wikia.nocookie.net/avengers-assemble/images/7/71/Avengers_emblem.png/revision/latest?cb=20130518215451"/>
     <Poster
-      width="400" 
-      height="100" 
+      width="400"
+      height="100"
       translation="[ 300, 330 ]"
       uri="pkg:/images/avengers.png"/>
-      <RowList 
-        id = "marvelRowList" 
-        itemComponentName = "RowListItem" 
+      <RowList
+        id = "marvelRowList"
+        itemComponentName = "RowListItem"
         visible="true"
         translation = "[ 130, 650 ]"
-        numRows = "1" 
-        itemSize = "[ 1608, 308 ]" 
-        rowItemSize = "[ [536, 308] ]" 
-        itemSpacing = "[ 0, 40 ]" 
-        showRowLabel = "[ true ]" 
-        drawFocusFeedback = "false" 
-        vertFocusAnimationStyle = "fixedFocusWrap" 
+        numRows = "1"
+        itemSize = "[ 1608, 308 ]"
+        rowItemSize = "[ [536, 308] ]"
+        itemSpacing = "[ 0, 40 ]"
+        showRowLabel = "[ true ]"
+        drawFocusFeedback = "false"
+        vertFocusAnimationStyle = "fixedFocusWrap"
         rowFocusAnimationStyle = "fixedFocusWrap" />
-      <!-- <Detail/> -->
-      <!-- <doctorStrange/> -->
-      <DetailSpider/> 
-      <!-- <blackWidow/> -->
-      <Detail1 
+      <DetailSpider/>
+      <Detail1
         id="blackPanter"
         visible="false"
         head="Black Panter"
         titleLabel="Black Panter"
-        textLabel="Hace millones de años, un meteorito de poderoso vibranium impactó en África. Cuando llegó la era del hombre, la mayoría de los habitantes de aquel territorio se unieron bajo el mando de un guerrero chamán que, gracias al vibranium, adquirió fuerza, velocidad e instinto sobrehumano, convirtiéndose en el primer Black Panther." 
+        textLabel="Hace millones de años, un meteorito de poderoso vibranium impactó en África. Cuando llegó la era del hombre, la mayoría de los habitantes de aquel territorio se unieron bajo el mando de un guerrero chamán que, gracias al vibranium, adquirió fuerza, velocidad e instinto sobrehumano, convirtiéndose en el primer Black Panther."
         posterUri="pkg:/images/bp.webp"/>
-      <Detail1 
+      <Detail1
         id="blackWidow"
         visible="false"
         head="Black Widow"
         titleLabel="Black Widow"
-        textLabel="Natalia Alianovna Romanova (inglés: Natasha Romanoff; ruso: Наталья Наташа Романоф Альяновна Романова) alias Black Widow (en ruso: Черная вдова) fue una antigua agente rusa de la KGB. Fue entrenada por la Habitación Roja como parte del Programa de Operaciones Black Widow para ser la Superespía definitiva." 
-        posterUri="pkg:/images/bw.jpg"/>  
-      <Detail1 
+        textLabel="Natalia Alianovna Romanova (inglés: Natasha Romanoff; ruso: Наталья Наташа Романоф Альяновна Романова) alias Black Widow (en ruso: Черная вдова) fue una antigua agente rusa de la KGB. Fue entrenada por la Habitación Roja como parte del Programa de Operaciones Black Widow para ser la Superespía definitiva."
+        posterUri="pkg:/images/bw.jpg"/>
+      <Detail1
         id="doctorStange"
         visible="false"
         head="Doctor Strange"
         titleLabel="Doctor Strange"
-        textLabel="Doctor Strange sirve como el Hechicero Supremo, el principal protector de la Tierra contra las amenazas mágicas y místicas. Inspirado en historias de magia negra y Chandu el Mago, Strange fue creado durante la edad de plata de los cómics para traer un tipo diferente de personajes y temas a Marvel." 
-        posterUri="pkg:/images/ds.jpeg"/>  
+        textLabel="Doctor Strange sirve como el Hechicero Supremo, el principal protector de la Tierra contra las amenazas mágicas y místicas. Inspirado en historias de magia negra y Chandu el Mago, Strange fue creado durante la edad de plata de los cómics para traer un tipo diferente de personajes y temas a Marvel."
+        posterUri="pkg:/images/ds.jpeg"/>
   </children>
 </component>
